@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Kelly Tran</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Kelly Tran</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline">=</ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+          src="https://media.licdn.com/dms/image/D4E03AQHLjxeJuv8wEw/profile-displayphoto-shrink_800_800/0/1696167020458?e=1703116800&v=beta&t=5mUXmIAQ5Ch-bPzbAdRIKSXjc95NygUI0l1c93Z-rbs"
+          alt="Kelly-Tran"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            My name is Kelly Tran, and I am a sophomore majoring in Computer Science at the University of Florida. <br>
+            I'm proud to be an active member of the Women in Computer Science and Engineering (WiCSE) and the Girls Who Code (GWC) organizations. <br>
+            My experiences in developing projects using C++ and Python have not only enhanced my skills,
+            but have also strengthened my enthusiasm and motivation for continuing my coding journey.
+          </p>
+        </div>
+  </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Recent Projects</h2>
+
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="https://static.wikia.nocookie.net/logopedia/images/9/98/Minesweeper_1992.png/revision/latest?cb=20220716174154"
+              alt="minesweeper"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Minesweeper</h3>
+            <p class="project-details">
+                This project implements the classic Minesweeper game using the Simple and Fast Multimedia Library (SFML). <br>
+                The application focuses on developing user-friendly text input features, including real-time character limits and text formatting. <br>
+                It enhances gameplay experience with additional features, such as a debug mode, game pause/play options, and a leaderboard to track high scores.
+            </p>
+            <a href="https://github.com/KellyLTran/Minesweeper" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="https://cdn.kastatic.org/ka-perseus-images/d781bd2065aa55379033d07c601056a354d2bfbb.png"
+              alt="RLE-Program"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">RLE Program</h3>
+            <p class="project-details">
+                The RLE Program leverages on Python's core capabilities and Run-Length Encoding (RLE) techniques to efficiently convert between raw image data and string formats. <br>
+                The application has a significant compression ratio, reducing image sizes by up to 50% without noticeable loss in quality. <br>
+                It features an intuitive, interactive GUI, crafted with the ConsoleGfx Python library, which enables users to visualize the compression process in real-time.
+            </p>
+            <a href="https://github.com/KellyLTran/RLE-Program" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/014/045/240/original/pixel-art-living-room-with-people-watching-tv-movie-series-and-streaming-app-8bit-game-background-vector.jpg"
+              alt="Binge-Buddy"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Binge Buddy</h3>
+            <p class="project-details">
+                Binge Buddy is a movie sorting application that utilizes over 10,000 movie records from the IMDB database. <br>
+                The application offers users a variety of sorting options in both ascending and descending order, such as by genre, director, and ratings. <br>
+                It utilizes a timing mechanism to demonstrate the speed of the different sorting algorithms of merge sort and shell sort, where shell sort outperformed Merge Sort with an average completion time of 167,200 nanoseconds compared to Merge Sort's 1,015,900 nanoseconds
+            </p>
+            <a href="https://github.com/KellyLTran/Binge-Buddy" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts - Fixed to the right --> 
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/kellyltran" target="_blank"
+        ><img
+          src="data:image/png;base64,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"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/KellyLTran" target="_blank"
+        ><img
+          src="https://i.pinimg.com/originals/48/e0/73/48e07378e01dd719c060c1f2f2b5cb00.png"
+          alt="Github"
+          loading="lazy"
+          class="socicon"
+      /></a>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="https://media.tenor.com/LUNANcnXLiUAAAAC/up-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>
