@@ -105,16 +105,17 @@
   }
 
   .hero img {
-    height: 20rem;
-    width: 20rem;
-  }
-  
-  .bio {
+    max-width: 20rem; 
+    height: auto;
+   }
+
+.bio {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  }
+    text-align: center;
+}
   
   .bio h1 {
     margin-bottom: var(--bottom-margin);
