@@ -12,4 +12,3 @@ The website is built using **HTML**, **CSS**, and **JavaScript** with design ins
 - **Dynamic Sections**: Includes sections for About Me, Skills, Projects, and Contact, with smooth navigation between sections.
 - **Social Media Integration**: Provides links to social profiles for easy contact and networking.
 - **Scroll-to-Top Button**: Offers a button to scroll to the top for improved usability on long pages.
-- 
