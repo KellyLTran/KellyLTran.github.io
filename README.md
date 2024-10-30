@@ -4,6 +4,8 @@ This is a personal portfolio website created to showcase my skills, projects, an
 
 🔗 View the live website here: [kellyltran.github.io](https://kellyltran.github.io/)
 
+---
+
 ### 🌟 Overview
 The website is built using **HTML**, **CSS**, and **JavaScript** with design inspiration and guidance from [freeCodeCamp's Portfolio Tutorial](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#howtobuildthemoreaboutmesection). This portfolio allows me to present my work to potential employers and clients, creating a professional online presence.
 
