@@ -1,6 +1,7 @@
 # Portfolio Website
 
 This is a personal portfolio website created to showcase my skills, projects, and experience as a developer.
+
 View the live website here: [kellyltran.github.io](https://kellyltran.github.io/)
 
 ### Project Overview
